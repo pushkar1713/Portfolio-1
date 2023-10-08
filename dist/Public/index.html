@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website - Pushkar Aggarwal</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/assets/index-96bc76d6.css">
+  </head>
+  <body class="m-0 p-0 box-border font-portfont scroll-smooth">
+    <!-- wrapper -->
+    <div class="h-screen overflow-y-auto overflow-x-hidden">
+      <!-- Container -->
+      <div class="my-0 mx-auto w-[1200px]">
+        <!-- navigation bar -->
+        <navbar class="justify-between flex pt-[1rem] items-center bg-white">
+          <div class="flex align-baseline">
+            <img
+              class="w-[80px] scale-150"
+              src="/assets/p-09241816.png"
+              alt="name initial"
+            />
+            <div class="ml-[-1.2rem] text-2xl pt-6">ushkar Aggarwal</div>
+          </div>
+
+          <div class="flex gap-[2rem] py-0 px-[4em] pt-5 text-xl">
+            <div class="hover:font-bold"><a href="#Projects">Projects</a></div>
+            <div class="hover:font-bold"><a href="#Skills">Skills</a></div>
+            <div class="hover:font-bold">
+              <a href="#Contactme">Contact Me</a>
+            </div>
+          </div>
+        </navbar>
+        <!-- hero section -->
+        <div
+          class="relative flex content-center items-center gap-[5rem] my-[4rem] mx-auto py-0 px-[1rem] pb-[8rem ]"
+        >
+          <!-- hero secction left -->
+          <div class="flex flex-col justify-center gap-[2rem]">
+            <!-- hero section heading -->
+            <div class="text-[35px] text-[#343d68] font-medium">
+              Hi! Pushkar Aggarwal
+            </div>
+            <!-- sub heading with running text -->
+            <div class="text-[45px] text-[#343d68] font-medium leading-[45px]">
+              I am a <span class="role text-[#4e45d5] font-extrabold"></span>
+            </div>
+            <!-- description -->
+            <div class="mt-[1rem] w-[70%] font-medium">
+              Hello, I am a B.Tech CSE Student from KCC ITM, Here you will learn
+              about my projects and skills on my software development journey
+            </div>
+            <!-- button -->
+            <a href="#Contactme"
+              ><div
+                class="bg-[#E74949] w-[140px] h-[50x] text-center text-[#FFFFFF] px-2 py-3 text-lg shadow-[5px_5px_7px_0px_#0000003f] border-solid border-[3px] border-[#E74949] hover:bg-white hover:text-[#E74949] hover:transition-all ease-linear duration-200 cursor-pointer"
+              >
+                Hire Me
+              </div>
+            </a>
+          </div>
+
+          <!-- hero section right part -->
+          <div class="relative">
+            <img
+              class="absolute z-[9] top-[-0.8em] right-[1em] animate-cube"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAO5SURBVHgB7VlbTttAFL3jhKQ/feygyQ5CpSr0C1MJgioRwgowK0iyAswKcFdA2EDrAEINqkr+CFRq6QpwdxB+qpKH3XuDjSbjieMXH1V7fmxnMpOTO2fuywApo7p2uf3u7beXkCIYpISN1atlhTkGMKdEz47D9NFooXX65dVPSIjEJNfVi0I+zw7wVpUMW0T26Kx8CAkQm6Sqfn/xLDeoM+Y08PHFnK9bY2C1k075B8RALJKkO0Zb6yfXYnf5pp0bbOK4js8FcXw4zOlRJRCJ5ER3iq2Df2u7SGrP/PSmy3+If2bXJTsFVwJ7kCZJV3e7eKsJQ3M1V1u/KOB3Ys0NRTJAd338AUMZ5N6b3cU+hEBt9arkKPZHECXgwPVwlKsFSYDNIvc0O1pWMmMD/LoyM5lc48NpPNfi6lmHGXr9ZbPbrvDHfSRFf8dBqrs4IAnYjlJnMNkhHn20LNwO8kWe6BTJ2UIH4+hsqQkpI0ivuFuqt1sKP4IENdlijEGtutqrQ8oYjzMUPlXJUGFg3xW9ByVgDZOfxBQwNiu9G9IUJAR5C1zrHN1ZF/za9GEmSTocuBUa3lrAk2VOi34gThJBB5Ikhe7sBqYtSN5Cx2sXopAkkA9rd5aKErLqwsLAQrIHYclWK7368/zdjah5cmUYpYpBzj2QJE8WF1/B25YwpCHZLlln1lzyFmR5PKFiGCVvsYJrN+f52iyEBLoeCy87eCL3hBNJEtCRiMZHEDdK7QPYNWEpyx5nGsefX7chJEKTFMluVL6aCkw5+3u9rvUaDjAzKEodh4xSsUl6OO5MLNH2RRAGJXTSYiBIFKVCaTIInl7ReoZkeKI7PHxbcQkSEpMkkASOOuUmEiIH/LCVaD0tjTCaCkkPrl4j6S0MUiX5WHgMkpZ3w8ffJPhnLZk6/pNMC383yfF4oMdsPFkPi9tK6PmUyuGlJBsTYjfrU43pgtIwrbrWM0ajnJFG40kGt+HQgoAMXahx7C0Qckasbxpuzpi4bOARUEJYFO9PuHAqrbvvqzgFC3lfNjO38UTZOri5JmX0YoeCazjowtRJKifL0KWapBjc7pQXZTVOBpzrKGUDj7glRNgaRxeGSK9WUNnAI2kJEbqrFrbxVK1c7nudiYmFmFOg6eKcKCVE5P6kS/Yc/KfRwl6Oms0ONVkXxEXkRlcskh4CGk8WyN1JC5NgPU6GnqhnPmk82cp2gOUIiRtdqbx9CNBrCw/eDiREaq9ICFjmbipg69iFM9FJH8LvJ30zYvkqwx91vQU1ZWCJsAAAAABJRU5ErkJggg=="
+              alt=""
+            />
+            <img
+              class="absolute z-[9] bottom-0 left-0 animate-circle"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI/SURBVHgBtVVdbtNAEJ5ZN+4bKieIOQEuDxSe6iKVVhE/hgtgTtDeoD5CuYG5AIQKVUAltDyV9qGUG5gLgHlBInF3mXF33U3juElQPylZ7+zOt+OZ2c8ILXi8fryKqCMEHQJCWBk1FvSXa8B+WXbk/uc7Pyb5Y5Px0cbRbQ/0Lj1GcDWy4dBPmw4ZI3+y8XWLjLswG/IzwPj9x5XvrlGMED882hkj1tBXqF9Sem5VP3W2rDUmtCKdXYGnteQ3hqbIifgFOWcXpHjqLXTiN/uTc2p8UiY3gRTD0g9tiqrIN6PDwGyykDjw19qIGXufVl6T3xo95ibUpU5nkNn1itxf9J7Wp9NGz/OTvlwuYAr0P9zPhRKJY4q4y2pyBLVtVyif6VURX8bbg7tfaMjqiIVKqrG3fhyCkzN+VZgDFH1WTzTElc0T2HX2SJgTJvrzVFLun/dOugJUebPegTBVnlsw4i/gGiFALPxy5gH8HwL78PMP/hYelhdXVkMYRd+WYA48M+1nkEtqZcF9CraQVIgb/mAL5oAy7Wcg+a/Kuaa7YK0kr9u9ByddmAEsAzQkdk6XMK3Jxd9F7u3csPMVltMewGJFEuCKXWYvYUXOV12QZDobAj7ARNQIrg2rKOm+pKmtU26jPo/z0uuNKKNxIEnItBKngLqg9YBsIY2JQ2qJI1c6xj4WXHUqTgaztOUEeW78zMWbhwFFuwNOkSag0ArSvYN7r5oWsc0z5p73B5ECWDXp4DRwmgpSvnfUxrLN/x9ukOBDEc35NwAAAABJRU5ErkJggg=="
+              alt=""
+            />
+            <img
+              class="absolute z-[9] bottom-[1rem] right-0 animate-dots"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABNCAYAAABt06DMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIeSURBVHgB7dvBbdRAGMXxNxOJMxxY4ERKSAfkFmdPdAAdABXEqQCoANKE49yWDtIB5oRYLlAAHsaIQCSvZxwrkb9s/r+bpfH4yfbKsyM9pw2+Hx4+a0PYvzj2zq0enp5+0i1B/v/c5YP1cvkqhFAG6X5vZAiNl8pFXZ/IKPL3/XvA34riQ3DuZe4E37bvFmdnb2QM+QfG/538aMzkndb71+uDg7cyhPzD3Nei2HXOfdYV7Uj7Fr5r5E/z8Sd8pAl+te1zGUD+3PzO7WkK703cIPJnhsUV27QLSLsygPxpXthq3QNuNEH8f3UuGxpNcFfyexfCR00RgokbRP4030oncZn+Q1d0z/tSBpA/zT+p6yZ+6EcNvhDfuvJBVX2RAeRP+7PIelxV77uTxpzQjXtU18cyhPyJ8ZcP1kXxonWu1OYl+CpuhB/HN24lo8jf5zZeaLnci5N1W2hP447Jzx3vzxdVZWXVmUV+AAAAAAAAADBl41401Y95UV0ZQP4+qitGUF1JIP8wqiszo7qSQf7c/FQ/5kV1JY38aVRXthzVlfk1moDqSg7VlTSqK9eD6koG+dOorhhAdWUk8vdRXTGI6goAAAAAAACALUN1xSCqKwPI30d1xQiqKwnkH0Z1ZWZUVzLIn5uf6se8qK6kkT+N6sqWo7oyv0YTUF3JobqSRnXlelBdySB/GtUVA6iujET+PqorBlFdAQAAAIAb8xvf71xf8J+qxQAAAABJRU5ErkJggg=="
+              alt=""
+            />
+            <img
+              class="absolute z-[9] top-[-0.8rem] left-[50%] animate-plus"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIlSURBVHgB7VZNTuMwFH52ERGjGSksZkasKCegN8AbhNIN5QblBtwEOAI3KBvI0rlBOAFBYgEIqV2RVjQ271VxSYBCHVtiwydF8Uvi+PP3/gzwAwfc7+1tXwsRgies2Hz8EEXHGqCPV/gnCHr46Bw8gIMliADdpwACPMGKRKH11dxgrAOeYKuEhO8msRHHGWNsVJrhsNvdBA+wjwmtpRk/KyXAA6xJcMakGSutvbjEKkVnJAAyVY4Z52KZOVRTfgXBJmu1hFaq8z+OD6vvGVhi2OuFk8lkWJqjPM+3tqQc1b7BWCFXlUoJ4LymWMBYe/3i4qYxCcJdFF3jrU3jFi5SKBXOFsOMwcDtmFqyCFzr/r84PjO2lTtI1t9ra9tYLzJcsE3PCkpb/hpaevF0yiyJu05xflJ98akS1CPKnQlN0r6RdRFmaYxZRIuiSlfj8Th967KFJB673f1pUSwtawUSlEo1Y1RRJdUTsEDNHVOljqCM+K9kRWX65gEG58FnO7UigTUgVfXGlJEPP5L1PopIqZl7KE7wlkBD1EjgggOUlfI/ecpz+YUfpSGBBDveSPy9vEyW/Rl1VFTImAKvU2gI67JdgXz9CxfggMYkfHZUFyUA+0Bqxi4d1YkEZZMZu3RUVxJybjictJxItFZXk28nsT4YUGBmpRne7u42IuJEgsAqx70VznegAdxJcD4PTtbQJdbHu3cktE6x1J9QB9XVAvaDBngBYZzc9yPzkakAAAAASUVORK5CYII="
+              alt=""
+            />
+            <img
+              class="absolute z-[9] top-[1.5em] left-[-0.3] animate-zig"
+              src="data:image/png;base64,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"
+              alt=""
+            />
+            <img
+              class="p-[2.5rem] w-[600px] grayscale-1 animate-image"
+              src="/assets/pushkar-59a91160.jpg"
+              alt=""
+            />
+          </div>
+          <!-- faded text-->
+          <div
+            class="absolute select-none text-8xl text-grey bottom-[-15%] left-[-5%] font-bold transition-all duration-[3s]"
+          >
+            Pushkar
+          </div>
+        </div>
+      </div>
+
+      <!-- project section -->
+      <div class="mt-[4rem] bg-grey" id="Projects">
+        <h2 class="pt-[30px] text-[#E74949] text-center text-[90px]">
+          Projects
+        </h2>
+        <!-- project conatiner -->
+        <div
+          class="max-w-[1200px] my-0 mx-auto py-[3rem] px-0 flex flex-col gap-[120px]"
+        >
+          <!-- project card 1-->
+          <div>
+            <div
+              class="w-[90%] h-[550px] bg-[url('/Images/parallax2.png')] bg-cover bg-no-repeat relative shadow-[0px_0px_40px_#1f1f1f] items-center"
+            >
+              <!-- project number -->
+              <div
+                class="absolute text-[200px] font-semibold text-[#ffffff] z-[10] right-[-40px] top-[-45px]"
+              >
+                01
+              </div>
+              <!-- project content -->
+              <div
+                class="flex flex-col gap-[1rem] text-[#FFFFFF] p-[2.5em] absolute z-[5] top-[150px] bg-[#E749499a] bottom-[5rem]"
+              >
+                <!-- images -->
+                <div
+                  class="min-w-[60%] w-fit flex gap-[10px] flex-wrap rounded-[5px]"
+                >
+                  <img src="/assets/HTML-25319599.png" alt="" class="w-[40px]" />
+                  <img src="/assets/CSS-6c971c6d.png" alt="" class="w-[40px]" />
+                  <img src="/assets/Tailwind-e5e18457.png" alt="" class="w-[40px]" />
+                </div>
+
+                <!-- heading -->
+                <h2 class="text-[50px] font-bold leading-[3rem]">
+                  Parallax Website
+                </h2>
+                <!-- description -->
+                <div class="italic text-[16px] w-[70%]">
+                  Made a website show-casing Parallax effect. The topic I choose
+                  as content is my favourite stories and learned a lot of things
+                  like positioning, persoective and 3d effects.
+                </div>
+                <div class="flex gap-3">
+                  <div
+                    class="bg-[#E74949] w-[140px] h-[40x] text-center text-[#FFFFFF] px-2 py-3 text-lg shadow-[5px_5px_7px_0px_#0000003f] border-solid border-[3px] border-[#E74949] hover:bg-white hover:text-[#E74949] hover:transition-all ease-linear duration-200 cursor-pointer"
+                  >
+                    <a href="https://media-pushkar.web.app">Project Link</a>
+                  </div>
+                  <i class="fa-brands fa-github text-[50px]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project card 2 -->
+          <div
+            class="w-[90%] h-[550px] bg-[url('/Images/portfolio2.png')] bg-cover bg-no-repeat relative shadow-[0px_0px_40px_#1f1f1f] items-center ml-[120px]"
+          >
+            <!-- project number -->
+            <div
+              class="absolute text-[200px] font-semibold text-[#ffffff] z-[10] right-[-40px] top-[-45px]"
+            >
+              02
+            </div>
+            <!-- project content -->
+            <div
+              class="flex flex-col gap-[1rem] text-[#FFFFFF] p-[1.8em] absolute z-[5] top-[150px] bg-[#1f1f1f9a] bottom-[5rem]"
+            >
+              <!-- images -->
+              <div
+                class="min-w-[60%] w-fit flex gap-[10px] flex-wrap rounded-[5px]"
+              >
+                <img src="/assets/HTML-25319599.png" alt="" class="w-[40px]" />
+                <img src="/assets/CSS-6c971c6d.png" alt="" class="w-[40px]" />
+                <img src="/assets/Tailwind-e5e18457.png" alt="" class="w-[40px]" />
+                <img src="/assets/Javascript-da6c64ba.svg" alt="" class="w-[40px]" />
+              </div>
+
+              <!-- heading -->
+              <h2 class="text-[50px] font-bold leading-[3rem]">
+                Portfolio Website
+              </h2>
+              <!-- description -->
+              <div class="font-bold text-[16px] w-[70%]">
+                Made this primarily for the mini-project given to us during our
+                semester break. It was a great learning experience, I primarily
+                used tailwind CSS while making this so now I have good graps on
+                the framework.
+              </div>
+              <div class="flex gap-3">
+                <div
+                  class="bg-[#E74949] w-[140px] h-[40x] text-center text-[#FFFFFF] px-2 py-3 text-lg shadow-[5px_5px_7px_0px_#0000003f] border-solid border-[3px] border-[#E74949] hover:bg-white hover:text-[#E74949] hover:transition-all ease-linear duration-200 cursor-pointer"
+                >
+                  <a href="https://media-pushkar.web.app">Project Link</a>
+                </div>
+                <i class="fa-brands fa-github text-[50px]"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- skills section -->
+
+      <div class="my-0 mx-auto w-[1200px]" id="Skills">
+        <!-- skills section container -->
+        <div class="relative flex p-[5rem] my-[10rem] mx-auto gap-[30px]">
+          <!-- faded text -->
+          <div
+            class="text-[15em] font-bold text-[#e7e7e7] bottom-[-40.5%] overflow-y-hidden right-[-10%] select-none absolute"
+          >
+            Skills
+          </div>
+          <!-- left section -->
+          <div class="flex flex-col w-[50%]">
+            <h2
+              class="text-[50px] font-bold relative z-[-9] text-[#E74949] leading-[50px]"
+            >
+              <span class="text-[80px]">M</span>e & <br />My Tech Stack
+            </h2>
+            <!-- sub heading -->
+            <div class="mt-[1rem] w-[85%] text-justify">
+              <p class="my-[15px] mx-0">
+                My mainly started coding after joining my college before that I
+                only did little C and HTML in school which I hardly remembered
+                at that time.
+              </p>
+              <p class="my-[15px] mx-0">
+                The first language I learned was C language during my
+                Programming for problem solving class which thanks to our
+                teacher was a delightful and fun experience. After that I moved
+                on to JAVA for learning DSA. Started HTML and CSS for
+                mini-project and now I am currently studying Javascript.
+              </p>
+              <p class="my-[15px] mx-0">
+                My plan is to learn various tech-stacks and build projects. I
+                will be Learning about node.js, React, express.js, MongoDB (MERN
+                Stack).
+              </p>
+            </div>
+          </div>
+
+          <!-- right section -->
+          <div
+            class="flex flex-wrap gap-[2rem] w-[50%] relative justify-center pt-[3rem] h-[300px]"
+          >
+            <img
+              src="/assets/blob vector-42c42963.png"
+              alt=""
+              class="absolute top-[50%] left-[50%] z-[-5] translate-x-[-50%] translate-y-[-50%] animate-blob transition-all duration-[0.5s]"
+            />
+
+            <img
+              src="/assets/HTML-25319599.png"
+              alt=""
+              class="h-[90px] w-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/CSS-6c971c6d.png"
+              alt=""
+              class="h-[90px] w-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/Tailwind-e5e18457.png"
+              alt=""
+              class="h-[90px] w-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/Javascript-da6c64ba.svg"
+              alt=""
+              class="h-[90px] w-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/Git-b8c07ae7.svg"
+              alt=""
+              class="h-[90px] w-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/Github-d6162203.svg"
+              alt=""
+              class="h-[90px] w-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/C_Logo-d6bf5b47.png"
+              alt=""
+              class="h-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+            <img
+              src="/assets/notion-cbc7e520.png"
+              alt=""
+              class="h-[90px] hover:scale-[1.1] transition-all duration-[0.5s]"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- contact us section   -->
+      <div class="bg-grey">
+        <!-- contact us container -->
+        <div class="my-0 mx-auto w-[1200px]">
+          <h1 class="text-[5em] text-[#E74949] pt-[2rem]" id="Contactme">
+            Contact Me
+          </h1>
+          <h3 class="text-[3rem] text-[#343d68aa]">
+            Questions, Thoughts, Or Just Want To Say Hello?
+          </h3>
+
+          <!-- form container -->
+          <div class="flex mt-[25px] items-center justify-center">
+            <form
+              action="https://formsubmit.co/pushkar1713@gmail.com"
+              method="POST"
+              class="flex flex-col gap-[30px] w-[70%] my-[2rem] mx-[5rem]"
+            >
+              <!-- formfield container -->
+              <div class="w-full">
+                <input
+                  type="text"
+                  name="Name"
+                  id=""
+                  placeholder="Enter your Name"
+                  class="w-full h-[42px] py-0 px-[2rem] text-[18px] rounded-[5px] shadow-[2px_2px_10px_#1f1f1f] font-medium m-[17px]"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  id=""
+                  placeholder="Enter your email address"
+                  class="w-full h-[42px] py-0 px-[2rem] text-[18px] rounded-[5px] shadow-[2px_2px_10px_#1f1f1f] font-medium m-[17px]"
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  id=""
+                  placeholder="Enter your Subject"
+                  class="w-full h-[42px] py-0 px-[2rem] text-[18px] rounded-[5px] shadow-[2px_2px_10px_#1f1f1f] font-medium m-[17px]"
+                />
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your message"
+                  class="w-full h-auto py-0 px-[2rem] text-[18px] rounded-[5px] shadow-[2px_2px_10px_#1f1f1f] font-medium m-[17px] pt-[1rem]"
+                ></textarea>
+                <button
+                  class="bg-[#E74949] w-[240px] h-[50x] text-center text-[#FFFFFF] px-2 py-3 text-lg shadow-[5px_5px_7px_0px_#0000003f] border-solid border-[3px] border-[#E74949] hover:bg-white hover:text-[#E74949] hover:transition-all ease-linear duration-200 cursor-pointer ml-4 flex justify-center gap-2 type"
+                  type="submit"
+                >
+                  <p class="text-lg">Send Message</p>
+                  <i class="fa-solid fa-paper-plane pt-1"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="relative mt-[-1px] bg-[#343d68] p-[5rem]">
+        <!-- footer conatiner -->
+        <div class="my-0 mx-auto w-[1200px]">
+          <!-- footer wrapper -->
+          <div class="flex gap-[1rem] p-[1.2rem] justify-between items-center">
+            <!-- faded text -->
+            <div
+              class="absolute left-0 bottom-0 text-[#535c87] select-none text-[5em]"
+            >
+              Pushkar
+            </div>
+            <!-- links -->
+            <div class="gap-[1.2rem] flex text-[#ffffff]">
+              <a href="#Projects">
+                <div class="hover:text-[#E74949] cursor-pointer">
+                  Projects
+                </div></a
+              >
+              <a href="#Skills">
+                <div class="hover:text-[#E74949] cursor-pointer">Skills</div></a
+              >
+              <a href="#Contactme">
+                <div class="hover:text-[#E74949] cursor-pointer">
+                  Contact Me
+                </div></a
+              >
+            </div>
+
+            <!-- icon wrapper -->
+            <div class="flex gap-4 text-[35px] text-[#ffffff]">
+              <a href="https://github.com/pushkar1713"
+                ><i
+                  class="fa-brands fa-github hover:text-[#E74949] cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://www.linkedin.com/in/pushkar1713/"
+                ><i
+                  class="fa-brands fa-linkedin hover:text-[#E74949] cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://twitter.com/pushkar1713"
+                ><i
+                  class="fa-brands fa-x-twitter hover:text-[#E74949] cursor-pointer"
+                ></i
+              ></a>
+              <a href="https://www.instagram.com/pushkar1713/"
+                ><i
+                  class="fa-brands fa-instagram hover:text-[#E74949] cursor-pointer"
+                ></i
+              ></a>
+              <a href="mailto:pushkar1713@gmail.com">
+                <i
+                  class="fa-regular fa-envelope hover:text-[#E74949] cursor-pointer"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- script for running text -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Student",
+          "Reader",
+          "Tech Enthusiast",
+          "Coder",
+          "Web Developer",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
